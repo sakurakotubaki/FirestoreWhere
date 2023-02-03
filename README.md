@@ -6,8 +6,13 @@ Listとwhereを使ったプログラム
 ソースコードが古かったので、書き直して動かしてみた!
 
 ## splitメソッドについて
-https://api.dart.dev/stable/2.19.1/dart-core/String/split.html
-https://zenn.dev/tris/articles/bf623e5e65fac3
+### 公式を翻訳
+patternにマッチした文字列を分割し、その部分文字列のリストを返す。
+Pattern.allMatchesを使用して、この文字列内のpatternのすべてのマッチを見つけ、
+マッチの間、最初のマッチの前、および最後のマッチの後の部分文字列のリストを返します。
+
+https://api.dart.dev/stable/2.19.1/dart-core/String/split.html<br>
+https://zenn.dev/tris/articles/bf623e5e65fac3<br>
 
 ```dart
 import 'dart:math';
